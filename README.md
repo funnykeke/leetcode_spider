@@ -1,7 +1,7 @@
 # 你需要修改的地方：
 
 1.  `dir.MakeDir.py`中的path，表示你希望题目存储的地址
-2.  （可选）如果你是 会员用户可在`promblem.Problem_Dtail`中的ck里填入你的cookie以爬取**会员专享题**。
+2.  （可选）如果你是 会员用户可在`promblem.Problem_Dtail`中的ck里填入你的cookie以爬取**力扣会员专享题**。
 
 ## 你需要了解：
 
@@ -19,7 +19,7 @@
 
 
 
-### 爬取结果示例图
+### leetcode爬取结果示例图
 
 ![avatar](示例图/示例图.png)
 
