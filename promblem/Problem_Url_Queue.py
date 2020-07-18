@@ -1,13 +1,13 @@
 from queue import Queue
 import requests
 import json
-import lable.Lable_Dic
+import lable.Label_Dic
 
 
 def creatproblem_queue(label_name):
     url = 'https://leetcode-cn.com/graphql/'
     q = Queue(maxsize=1000)
-    label_dic = lable.Lable_Dic.getlabel_dic()
+    label_dic = lable.Label_Dic.getlabel_dic()
     # 英文名
     E_name = label_dic[label_name]
     data_temp = {"operationName": "getTagQuestions", "variables": {"slug": E_name},
